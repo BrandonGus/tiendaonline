@@ -16,4 +16,4 @@ class articulos(models.Model):
 class pedidos(models.Model):
     numero=models.IntegerField()
     fecha=models.DateField()
-    entregado=models.BooleanField()
+    entregado=models.BooleanField()l
